@@ -8,7 +8,7 @@ TEMP_DIR="temp"
 DATA_FILE_URL="https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv"
 RAW_DATA_FILE="$RAW_DATA_DIR/airtravel.csv"
 PROCESSED_DATA_FILE="$PROCESSED_DATA_DIR/processed_airtravel.csv"
-SUMMARY_REPORT="$OUTPUT_DIR/summary_report.txt"
+SUMMARY_REPORT="$OUTPUT_DIR/sum_report.txt"
 
 # Create directories
 echo "Creating directories..."
