@@ -19,7 +19,7 @@ public class DataProcessingSnippet {
         String outputCustomerRevenuePath = "output_customer_revenue.csv";
         String outputProductSalesPath = "output_product_sales.csv";
 
-        ExecutorService executor = Executors.newFixedThreadPool(2);
+        ExecutorService executor = Executors.newFixedThreadPool(3);
 
         // Process customer revenue and product sales in parallel
         Future<Map<String, Double>> customerRevenueFuture = executor.submit(() -> processCustomerRevenue(inputFilePath));
